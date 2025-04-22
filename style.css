@@ -15,7 +15,7 @@ body{
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     text-align: center;
-    width: 320px;
+    max-width: 320px;
 }
 
 .display {
@@ -62,3 +62,21 @@ body{
     grid-column: span 2;
     border-radius: 50px;  
 }
+
+@media (max-width: 768px) {
+    .calcular {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .button {
+      padding: 16px;
+      font-size: 1.2rem;
+    }
+  
+    .display {
+      font-size: 18px;
+      padding: 8px;
+    }
+  }
+  
